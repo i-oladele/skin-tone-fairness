@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.DS_Store
+
+# Data and model outputs are large and should not be committed
+data/
+runs/
+*.pt
