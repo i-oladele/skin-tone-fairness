@@ -1,0 +1,26 @@
+{
+  "data_dir": "data/processed",
+  "runs_dir": "runs",
+  "run_name": "size_matched",
+  "train_groups": "I-II,III-IV,V-VI",
+  "size_match": "I-II",
+  "arch": "efficientnet_b0",
+  "img_size": 224,
+  "epochs": 20,
+  "batch_size": 32,
+  "lr": 0.0003,
+  "weight_decay": 0.01,
+  "imbalance": "weighted_loss",
+  "patience": 6,
+  "num_workers": 2,
+  "seed": 42,
+  "limit": null,
+  "device": "cuda",
+  "train_images": 4202,
+  "val_images": 1099,
+  "train_images_by_group": {
+    "I-II": 2302,
+    "III-IV": 1440,
+    "V-VI": 460
+  }
+}
